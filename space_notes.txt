@@ -1,0 +1,104 @@
+Mission Analysis Scenarios
+
+-------------------------------------------------------------------------------------
+
+Scenario 1 – Groundwater Monitoring Satellite
+
+Mission Type
+
+Remote Sensing
+
+The mission focuses on monitoring groundwater resources by collecting environmental measurements rather than taking ordinary photographs. This requires specialized sensors to detect information related to soil moisture, vegetation health, and other indicators associated with groundwater.
+Recommended Orbit
+
+Sun-Synchronous Orbit (SSO)
+
+Why SSO?
+
+I recommend a Sun-Synchronous Orbit because the mission requires high-quality observations that can be compared over long periods. SSO allows the satellite to pass over the same area under consistent lighting conditions each time, making it easier to analyze environmental changes, identify groundwater-related patterns, and compare new data with previous observations accurately.
+
+Recommended Payload
+
+A remote sensing payload, such as a multispectral camera, hyperspectral camera, or Synthetic Aperture Radar (SAR), would be the best choice. These sensors can detect environmental characteristics related to groundwater that are not visible in normal photographs.
+
+Most Critical Subsystem
+
+The Attitude Determination and Control System (ADCS) is one of the most important subsystems for this mission. It keeps the satellite accurately pointed at the target area, ensuring the payload collects consistent and reliable data every time it passes over the same location. Accurate pointing is essential for comparing observations over time.
+-------------------------------------------------------------------------------------
+Scenario 2 – Sandstorm Early-Warning Satellite
+
+Mission Type
+
+Weather Monitoring
+
+The satellite’s main mission is to continuously observe atmospheric conditions and detect the formation and movement of sandstorms. It may also support disaster management by providing early warnings to authorities and affected communities.
+
+Recommended Orbit
+
+Geostationary Earth Orbit (GEO)
+
+Why GEO?
+
+I recommend GEO because the mission requires continuous monitoring of the Arab region. A satellite in GEO moves around Earth at the same angular rate as Earth’s rotation, so it appears fixed above the same region. This allows it to observe sandstorms continuously without waiting for another satellite pass.
+
+Why Not LEO?
+
+LEO is less suitable because a satellite in this orbit moves quickly over different areas of Earth and cannot continuously observe the same region. To provide uninterrupted coverage using LEO, we would need a large number of satellites working together, which would increase the cost and complexity of the mission.
+
+Recommended Payload
+
+A multispectral or infrared imaging instrument would be suitable for detecting dust clouds and monitoring the formation and movement of sandstorms. These sensors provide more useful atmospheric information than an ordinary camera.
+
+Most Critical Subsystem
+
+The Communication subsystem (COMMS) is especially important because the satellite must send weather images and early-warning information to ground stations quickly and reliably. It should support a sufficient data rate for continuous atmospheric observations.
+-------------------------------------------------------------------------------------
+Mission Type: Technology Demonstration
+
+Recommended Orbit: Low Earth Orbit (LEO)
+
+Why LEO?
+
+I recommend LEO because it provides a cost-effective and practical environment for testing new technologies. CubeSats are commonly launched into LEO due to lower launch costs, easier access, and reduced mission risk. If the experiment fails, the financial impact is much lower than testing the technology in higher or more expensive orbits.
+
+Recommended Payload
+
+The payload would be the experimental communication system, such as a new antenna, transmitter, receiver, or communication device being evaluated. The onboard computer would control and manage the experiment during the mission.
+
+Expected Challenges
+
+The main challenges include the possibility of the new technology failing, limited power due to the CubeSat’s small solar panels and batteries, limited space for equipment, and keeping the overall mission cost within the university’s budget.
+-------------------------------------------------------------------------------------
+Scenario 4 – Regional Navigation System
+
+Mission Type
+
+Navigation
+
+Recommended Orbit
+
+Medium Earth Orbit (MEO)
+
+Why MEO?
+
+I recommend MEO because it provides wide regional coverage and is well suited for navigation signals. Compared with LEO, each MEO satellite can cover a larger area, so fewer satellites are required to provide navigation services across the two neighboring countries.
+
+Estimated Number of Satellites
+
+Approximately 8–12 satellites could be used as an initial conceptual estimate. The satellites would need to be distributed across suitable orbital planes and spaced correctly to maintain reliable visibility over the required region.
+
+Why Fewer Satellites Than GPS?
+
+GPS requires a large constellation because it must provide continuous positioning coverage across the entire world. This proposed system only needs to cover two neighboring countries, so fewer satellites would be required. The final number would depend on the size of the region, required positioning accuracy, satellite visibility, and the desired level of service availability.
+------------------------------------------------------------------------------------------------
+What surprised you most about satellites during the past three days?
+
+What surprised me most was how strongly every satellite design depends on its mission. Different missions require different orbits, payloads, and subsystem priorities. I was also amazed by how satellites operate in extreme space conditions, including very high and very low temperatures. Another surprising point was how a small change or failure in one subsystem can create a major problem in the entire mission because all satellite systems are connected. For example, an Earth-observation satellite needs a camera as its main payload, but it also needs ADCS for accurate pointing, EPS for power, an OBC for processing, communications for sending the images, and thermal control to protect the equipment. This showed me that a satellite is not a collection of separate parts, but one integrated system.
+------------------------------------------------------------------------------------------------
+What was the hardest concept, and how did you overcome it?
+
+The hardest concept I faced was understanding which payload instrument is suitable for each mission. Different missions require instruments that measure different types of information. For example, Earth-observation missions may use optical cameras, weather-monitoring missions use infrared sensors and spectrometers, and agricultural missions often use multispectral cameras to evaluate vegetation health. At first, remembering the differences and understanding why each instrument was selected felt confusing. I overcame this difficulty through online research, guided explanations from ChatGPT acting as my professor and engineering mentor, and by practicing mission scenarios until I could connect each mission requirement to the correct payload.
+------------------------------------------------------------------------------------------------
+How is your project different from a real professional spacecraft-design system?
+
+My project is different from a real professional spacecraft-design system because it only works at the conceptual-design level. It recommends a suitable mission type, orbit, payload, and satellite subsystems based on general rules, then explains the reasons for those recommendations. A professional system would perform detailed calculations, simulations, optimization, testing, and verification for every subsystem. It would also be used by specialized engineering teams to produce a safe and flight-ready spacecraft design. Therefore, my project is an intelligent assistant for early design decisions, not a replacement for professional aerospace engineers.
