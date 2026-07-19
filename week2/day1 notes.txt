@@ -1,0 +1,24 @@
+Week 2 - Day 1 Reflection
+
+1- What did I learn today?
+
+Today I learned how to work with dictionaries, nested dictionaries, and lists in Python.
+I learned how to organize structured data, access values using keys and indexes, and loop through different data structures.
+I also learned how these structures can be used to represent satellite information.
+
+2- What concept was difficult?
+
+The nested dictionary was the most difficult concept at first because it was a new way of organizing data.
+Combining lists with dictionaries and accessing values through multiple levels felt confusing initially.
+
+3- What finally made it clear?
+
+Slicing every problem apart and working on each part until I finished the whole problem made the concept clearer.
+Instead of trying to understand the entire structure at once, I learned each layer separately.
+
+4- What mistake taught me the most?
+
+In one word: **ASSUMPTION**.
+
+I assumed that the first satellite in the list could always be the starting point for finding the heaviest satellite.
+This taught me that code should not only work with the current data, but should also consider possible situations and validate assumptions.
