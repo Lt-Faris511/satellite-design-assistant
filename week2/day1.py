@@ -1,3 +1,4 @@
+#Exercise 1
 # satellite = {
 #     "name": "FarisSat",
 #     "country": "Saudi Arabia",
@@ -17,7 +18,8 @@
 # print("Mass in kg:", satellite.get("mass_kg"))
 # print("Launch Year:", satellite.get("launch_year"))
 # print("Is Active:", satellite.get("is_active"))
-
+#---------------------------------------------------------------------
+#Exercise 2
 # satellite_mission_orbit = {
 #     "earth observation": "LEO / SSO",
 #     "communication": "GEO",
@@ -39,7 +41,8 @@
 # )
 
 # print("Recommended orbit:", recommended_orbit)
-
+#--------------------------------------------------------------------------------
+#Exercise 3
 # mission_recommendations = [
 #     {
 #         "mission": {
@@ -225,7 +228,8 @@
 
 #         for key, value in details.items():
 #             print(key, ":", value)
-
+#-----------------------------------------------------------------------
+#Exercise 4
 satellites = [
     {
         "name": "SaudiSat 5",
