@@ -1,0 +1,14 @@
+Day 5 Reflection
+Today I learned how to transform an AI response from normal text into structured JSON data that can be processed by Python. 
+I learned the importance of forcing the AI to follow a specific output format because software systems need predictable data structures to work reliably.
+
+I implemented json.loads() to convert the AI-generated JSON response into a Python dictionary, allowing the program to access and use individual engineering parameters such as orbit selection, payload, altitude, and power requirements.
+
+The most important concept I learned today is that AI should not only provide answers but should be integrated into a larger software system. 
+By creating structured outputs, validation, and saving previous recommendations, the AI becomes a component that can support engineering workflows.
+
+I also learned about data storage behavior and how writing directly with "w" mode replaces previous data. 
+I improved the system by storing multiple satellite design recommendations in a list format inside results.json, creating a history of generated designs.
+
+The main challenge today was handling the transition between AI-generated text, JSON format, and Python data structures. 
+I overcame this by understanding how each layer communicates and by adding error handling for invalid JSON responses.

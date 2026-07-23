@@ -1,0 +1,47 @@
+[
+    {
+        "date": "2026-07-23T21:07:42.238988",
+        "mission": "I need a satellite for regional navigation services.",
+        "recommendation": {
+            "mission_type": "Regional Navigation",
+            "recommended_orbit": "MEO",
+            "altitude_km": 20200,
+            "payload": "Navigation payload with atomic clocks and transponders",
+            "power_watts": 1200,
+            "mass_class": "Medium",
+            "lifetime_years": 12,
+            "adcs_type": "3-axis stabilized with star trackers and gyroscopes",
+            "justification": "Regional navigation satellites require a Medium Earth Orbit (MEO) at approximately 20,200 km altitude to provide wide area coverage with sufficient signal strength and reduced signal delay. The payload must include highly accurate atomic clocks and transponders for precise timing and navigation signals. Power requirements are moderate due to continuous operation of payload and onboard processing, estimated at around 1200 watts. A medium mass class supports necessary payload and power systems. A mission lifetime of about 12 years provides cost-effective service continuity. Attitude control must be precise for antenna pointing accuracy, hence a 3-axis stabilized ADCS using star trackers and gyros is recommended."
+        }
+    },
+    {
+        "date": "2026-07-23T21:10:41.651138",
+        "mission": "I need a satellite to monitor agricultural fields in Saudi Arabia.",
+        "recommendation": {
+            "mission_type": "Earth Observation - Agriculture Monitoring",
+            "recommended_orbit": "SSO",
+            "altitude_km": 600,
+            "payload": "Multispectral Imager",
+            "power_watts": 150,
+            "mass_class": "Small Satellite (100-500 kg)",
+            "lifetime_years": 5,
+            "adcs_type": "Three-axis stabilized",
+            "justification": "Sun-synchronous orbit (SSO) is ideal for consistent lighting conditions and regular revisit times over agricultural regions like Saudi Arabia. An altitude of around 600 km balances resolution and coverage. A multispectral imager payload enables monitoring of crop health and vegetation indices. Power around 150 W supports imaging payload and data downlink. Small satellite mass allows for cost-effective launch and operation. A 5-year lifetime is adequate for medium-term agricultural monitoring missions. Three-axis stabilized ADCS is necessary to maintain precise pointing for imaging instruments."
+        }
+    },
+    {
+        "date": "2026-07-23T22:08:41.379822",
+        "mission": "I need a satellite to monitor agricultural fields in Saudi Arabia.",
+        "recommendation": {
+            "mission_type": "Agricultural Monitoring",
+            "recommended_orbit": "SSO",
+            "altitude_km": 600,
+            "payload": "Multispectral and Hyperspectral Imager",
+            "power_watts": 1500,
+            "mass_class": "Medium",
+            "lifetime_years": 5,
+            "adcs_type": "3-Axis Stabilization",
+            "justification": "Monitoring agricultural fields requires consistent, repeatable observations with good spatial resolution and consistent sunlight conditions for multispectral imaging. A Sun-Synchronous Orbit (SSO) at around 600 km altitude allows the satellite to pass over the same regions at approximately the same local solar time, providing consistent lighting conditions for accurate vegetation analysis. The multispectral and hyperspectral payload is essential for detecting crop health, soil moisture, and vegetation indices. A medium mass class balances payload capacity and cost. A power budget of about 1500 watts supports the payload and onboard systems while ensuring robustness. The mission lifetime of 5 years ensures sufficient data continuity for seasonal and annual agricultural monitoring. Three-axis stabilization is required for precise pointing of the imaging instruments."
+        }
+    }
+]
