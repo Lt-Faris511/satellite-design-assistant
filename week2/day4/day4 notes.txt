@@ -1,0 +1,15 @@
+Day 4 Reflection — First AI API Integration
+Today I learned how to connect a Python program with an AI model using an API.
+I learned how to safely store API keys using .env files and access them using environment variables instead of writing sensitive information directly inside the code.
+
+The most important concept I learned was that an AI model by itself is not a satellite design system.
+The model needs clear instructions and engineering context to provide useful results.
+By adding a system prompt, I was able to guide the AI to act as a satellite systems engineer and generate conceptual satellite designs based on mission requirements.
+
+I also learned the importance of handling errors when working with external services, such as missing API keys, failed requests, or empty responses.
+This showed me that building a reliable AI application requires more than just calling a model; it requires proper software engineering practices.
+
+The most interesting part was seeing how AI can help in satellite conceptual design, while still needing engineering constraints and validation to avoid unrealistic recommendations.
+
+Initially, I faced issues with API setup and model access while testing different providers.
+After understanding the environment configuration and API requirements, I successfully connected the OpenAI API and generated my first AI-based satellite design analysis.

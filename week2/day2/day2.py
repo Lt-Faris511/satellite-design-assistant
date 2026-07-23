@@ -28,9 +28,9 @@ import json
 #         "is_active": False
 #     }
 # ]
-# with open("week2/satellites.json", "w") as file:
+# with open("week2/day2/satellites.json", "w") as file:
 #     json.dump(satellites, file, indent=4)
-# with open("week2/satellites.json", "r") as file:
+# with open("week2/day2/satellites.json", "r") as file:
 #     loaded_satellites = json.load(file)
 # print("Before modifications")
 # print(json.dumps(loaded_satellites, indent=4))
@@ -60,11 +60,11 @@ import json
 # for satellite in loaded_satellites:
 #     if satellite["name"] == "AgriVision-1":
 #         satellite.pop("mass_kg", None)
-# with open("week2/satellites.json", "w") as file:
+# with open("week2/day2/satellites.json", "w") as file:
 #     json.dump(loaded_satellites, file, indent=4)
 # print("\nAfter modifications:")
 # print(json.dumps(loaded_satellites, indent=4))
-# with open("week2/knowledge_base.json", "r") as file:
+# with open("week2/day2/knowledge_base.json", "r") as file:
 #     knowledge_base = json.load(file)
 
 # user_mission = input("Enter the mission type: ")
@@ -76,7 +76,7 @@ import json
 #         print(key, ":", value)
 # else:
 #     print("The mission was not found")
-with open("week2/ai_response.json", "r") as file:
+with open("week2/day2/ai_response.json", "r") as file:
     ai_design_simulation = json.load(file)
 report = f"""
 Satellite Design Report
